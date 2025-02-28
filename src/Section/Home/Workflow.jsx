@@ -34,7 +34,7 @@ const Workflow = () => {
             <img
               src="src/assets/code.jpg"
               alt="code"
-              className="w-full h-full rounded-lg shadow-lg"
+              className="w-100 h-100 rounded-lg shadow-lg"
             />
           </motion.div>
 

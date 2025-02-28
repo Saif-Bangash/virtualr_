@@ -11,9 +11,8 @@ const Herosection = () => {
           <motion.h1
             className="text-4xl sm:text-5xl font-extrabold mb-4"
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            viewport={{ once: false, amount: 0.2 }} // Trigger when 20% is visible
           >
             Virtualr - Build Tools{" "}
             <span className="text-amber-600">for Developers</span>
@@ -23,9 +22,8 @@ const Herosection = () => {
           <motion.p
             className="text-lg sm:text-xl mb-6"
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            viewport={{ once: false, amount: 0.2 }}
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
             reiciendis eius nisi?
@@ -36,9 +34,8 @@ const Herosection = () => {
             <motion.button
               className="bg-amber-600 text-white text-sm p-4 rounded-lg text-lg font-semibold hover:bg-amber-700 transition duration-300"
               initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              animate={{ opacity: 1 }}
               transition={{ delay: 1, duration: 1 }}
-              viewport={{ once: false, amount: 0.2 }}
             >
               Start for free
             </motion.button>
@@ -46,9 +43,8 @@ const Herosection = () => {
             <motion.button
               className="border-2 border-amber-600 text-amber-600 px-2 rounded-lg text-lg font-semibold hover:bg-amber-600 hover:text-white transition duration-300"
               initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              animate={{ opacity: 1 }}
               transition={{ delay: 1.5, duration: 1 }}
-              viewport={{ once: false, amount: 0.2 }}
             >
               Documentation
             </motion.button>
@@ -60,16 +56,14 @@ const Herosection = () => {
       <motion.div
         className="flex flex-col lg:flex-row justify-center items-center gap-8"
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
-        viewport={{ once: false, amount: 0.2 }}
       >
         <motion.div
           className="w-80 border-2 border-amber-600 sm:w-96 md:w-1/2 lg:w-1/3 xl:w-1/3"
           initial={{ x: -200, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
+          animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 50, delay: 2.5 }}
-          viewport={{ once: false, amount: 0.2 }}
         >
           <video
             autoPlay
@@ -84,9 +78,8 @@ const Herosection = () => {
         <motion.div
           className="w-80 border-2 border-amber-600 sm:w-96 md:w-1/2 lg:w-1/3 xl:w-1/3"
           initial={{ x: 200, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
+          animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 50, delay: 3 }}
-          viewport={{ once: false, amount: 0.2 }}
         >
           <video
             autoPlay

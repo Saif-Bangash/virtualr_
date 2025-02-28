@@ -8,7 +8,7 @@ const Testimonial = () => {
     <section className="bg-gray-900 py-16">
       {/* Section Header */}
       <div className="flex flex-wrap justify-center items-center mb-12">
-        <h2 className="text-5xl text-white font-extrabold">What People are Saying</h2>
+        <h2 className="text-xl text-white lg:text-5xl font-extrabold">What People are Saying</h2>
       </div>
 
       {/* Testimonial Cards */}

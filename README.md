@@ -1,12 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="bg-white p-8 rounded-lg shadow-xl text-center w-96">
+        <h1 className="text-4xl font-semibold text-blue-500">Technologies Used:</h1>
+        <div className="mt-6 space-y-4">
+          <div className="flex justify-center items-center gap-4 text-xl text-gray-700">
+            <FaReact size={40}   />
+            <p>React.js</p>
+          </div>
+          <div className="flex justify-center items-center gap-4 text-xl text-gray-700">
+            <FaCss3 size={40} color="#2965f1" />
+            <p>Tailwind CSS</p>
+          </div>
+          <div className="flex justify-center items-center gap-4 text-xl text-gray-700">
+            <FaJs size={40} color="#f7df1e" />
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </div>
